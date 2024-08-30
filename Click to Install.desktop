@@ -1,0 +1,23 @@
+#!/usr/bin/env xdg-open
+#
+#
+#
+#      ThinLinc Server Installation Script
+#
+#      To install the ThinLinc server software double click on the
+#      "Click to Install" icon. If that does not work, or if you wish
+#      to start the installer from a terminal, then please enter the
+#      following on the command line:
+#
+#          sh ./install-server
+#
+#
+#
+# Copyright 2002-2019 Cendio AB.
+# For more information, see http://www.cendio.com
+
+[Desktop Entry]
+Type=Application
+Name=Click to Install
+Exec=sh -c "`dirname %k`/install-server"
+Icon=system-software-install
