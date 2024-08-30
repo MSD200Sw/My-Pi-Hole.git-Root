@@ -1,0 +1,1 @@
+sudo docker run -d -t --name usename# conteinar-name
